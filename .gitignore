@@ -1,0 +1,19 @@
+# Release assets are distributed through GitHub Releases.
+*.exe
+*.7z
+*.zip
+*.msi
+*.dll
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+build/
+dist/
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.pfx
+*.p12
