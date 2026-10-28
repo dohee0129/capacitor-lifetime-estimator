@@ -8,7 +8,7 @@
 
 | 파일 | 용도 |
 | --- | --- |
-| `수명추정_프로그램.exe` | Windows 실행파일 |
+| `CapacitorLifetimeEstimator.exe` | Windows 실행파일 |
 | `mission-profile-examples.zip` | 커패시터·IGBT·다이오드 입력 예제 |
 | `SHA256SUMS.txt` | 다운로드 파일의 SHA-256 해시 |
 
@@ -40,7 +40,7 @@
 ## 사용 방법
 
 1. [최신 Release](https://github.com/dohee0129/capacitor-lifetime-estimator/releases/latest)에서 실행파일과 예제 ZIP을 다운로드합니다.
-2. 예제 ZIP을 압축 해제한 뒤 Windows에서 `수명추정_프로그램.exe`를 실행합니다.
+2. 예제 ZIP을 압축 해제한 뒤 Windows에서 `CapacitorLifetimeEstimator.exe`를 실행합니다.
 3. 분석할 소자 종류를 선택합니다.
 4. `소자 변경`에서 분석 대상 부품을 선택하고, 입력 데이터의 시간 간격을 확인합니다.
 5. `파일 선택`에서 해당 소자의 CSV 운전 프로파일을 불러옵니다.
@@ -98,7 +98,7 @@
 ## 배포 정보
 
 - 배포 태그 `snapshot-2026-10-28`은 제공받은 실행파일을 구분하기 위한 날짜 태그이며, 개발자가 지정한 프로그램 버전을 의미하지 않습니다.
-- 원본 실행파일은 재빌드하거나 수정하지 않았습니다.
+- 원본 `수명추정_프로그램.exe`는 파일명만 `CapacitorLifetimeEstimator.exe`로 정리했습니다. 실행파일 내용은 재빌드하거나 수정하지 않았습니다.
 - 참고문헌 원문 PDF와 제조사 문서 원본은 이 저장소에 재배포하지 않습니다.
 - 현재 별도의 오픈소스 라이선스를 부여하지 않았습니다. 사용한 외부 라이브러리의 권리는 각 권리자에게 있습니다.
 
